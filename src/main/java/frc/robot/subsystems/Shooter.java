@@ -102,11 +102,11 @@ public class Shooter implements Subsystem {
         return rightSlave;
     }
 
-    public int getLeftVeloTicks() {
+    public double getLeftVeloTicks() {
         return leftMaster.getSelectedSensorVelocity();
     }
 
-    public int getRightVeloTicks() {
+    public double getRightVeloTicks() {
         return rightSlave.getSelectedSensorVelocity();
     }
 

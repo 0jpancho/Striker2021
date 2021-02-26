@@ -284,19 +284,19 @@ public class Drivebase extends SubsystemBase {
 		return rightMaster;
 	}
 
-	public int getLVeloTicks() {
+	public double getLVeloTicks() {
 		return leftMaster.getSelectedSensorVelocity();
 	}
 
-	public int getLPosTicks() {
+	public double getLPosTicks() {
 		return leftMaster.getSelectedSensorPosition();
 	}
 
-	public int getRVeloTicks() {
+	public double getRVeloTicks() {
 		return rightMaster.getSelectedSensorVelocity();
 	}
 
-	public int getRPosTicks() {
+	public double getRPosTicks() {
 		return rightMaster.getSelectedSensorPosition();
 	}
 
